@@ -1,29 +1,21 @@
-/* add your CSS here */
 body {
 padding: 20px;
 font: normal 13px/150% Arial, Helvetica, sans-serif;
 }
 
+/* Squirrel Text */
 h1 {
 color: green;
 font-size: 35px;  
 }
 
+/* Image of squirrel */
 img {
 width: 300px;
 border: 2px solid #ededed;
 }
 
-#facts {
-  font-size: 15px;
-list-style-type: none;
-padding-left: 0px;
-}
-
-#facts span {
-font-weight: bold;
-}
-
+/* Container div which holds all elements */
 #container {
 padding: 15px;
 width: 303px;
@@ -37,6 +29,7 @@ border: 2px solid #ededed;
 box-shadow: 1px 7px 9px -1px rgba(0,0,0,0.75);
 }
 
+/* div which contains all the text content - 1,2,3 paragraphs */
 #card {
 width: 271px;
 text-align: justify;
@@ -45,13 +38,27 @@ padding: 0 14px;
 border: 2px solid #ededed;
 }
 
-#summary {
-text-align: justify;
-padding-bottom: 10px;
-}
-
+/* 1st paragraph */
 p#interesting-fact {
 font-size: 14px;
 margin-top: 14px;
 font-style: Italic;
+}
+
+/* 2nd paragraph */
+#facts {
+font-size: 15px;
+list-style-type: none;
+padding-left: 0px;
+}
+
+/* 2nd paragraph - subheadings to be bold */
+#facts span {
+font-weight: bold;
+}
+
+/* 3rd paragraph */
+#summary {
+text-align: justify;
+padding-bottom: 10px;
 }
