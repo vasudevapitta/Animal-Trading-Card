@@ -1,64 +1,38 @@
 body {
-padding: 20px;
-font: normal 13px/150% Arial, Helvetica, sans-serif;
-}
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif; }
 
-/* Squirrel Text */
-h1 {
-color: green;
-font-size: 35px;  
-}
+.cardSquirrel {
+  padding: 15px;
+  width: 303px;
+  height: 100%;
+  border-radius: 0px 0px 0px 0px;
+  border: 2px solid #ededed;
+  box-shadow: 1px 7px 9px -1px rgba(0, 0, 0, 0.75); }
+  .cardSquirrel_title {
+    color: green;
+    font-size: 2.1875rem; }
+  .cardSquirrel_img {
+    width: 300px;
+    border: 2px solid #ededed; }
+  .cardSquirrel_content {
+    width: 271px;
+    text-align: justify;
+    margin-top: 9px;
+    padding: 0 14px;
+    border: 2px solid #ededed; }
+    .cardSquirrel_content_fact {
+      font-size: 0.875rem;
+      margin-top: 14px;
+      font-style: Italic; }
+    .cardSquirrel_content_info_facts {
+      font-size: 0.875rem;
+      list-style-type: none;
+      padding-left: 0px; }
+      .cardSquirrel_content_info_facts span {
+        font-weight: bold; }
+    .cardSquirrel_content_info_summary {
+      text-align: justify;
+      padding-bottom: 10px; }
 
-/* Image of squirrel */
-img {
-width: 300px;
-border: 2px solid #ededed;
-}
-
-/* Container div which holds all elements */
-#container {
-padding: 15px;
-width: 303px;
-height: 100%;
-border-radius: 0px 0px 0px 0px;
--moz-border-radius: 0px 0px 0px 0px;
--webkit-border-radius: 0px 0px 0px 0px;
-border: 2px solid #ededed;
--webkit-box-shadow: 1px 7px 9px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 7px 9px -1px rgba(0,0,0,0.75);
-box-shadow: 1px 7px 9px -1px rgba(0,0,0,0.75);
-}
-
-/* div which contains all the text content - 1,2,3 paragraphs */
-#card {
-width: 271px;
-text-align: justify;
-margin-top: 9px;
-padding: 0 14px;
-border: 2px solid #ededed;
-}
-
-/* 1st paragraph */
-p#interesting-fact {
-font-size: 14px;
-margin-top: 14px;
-font-style: Italic;
-}
-
-/* 2nd paragraph */
-#facts {
-font-size: 15px;
-list-style-type: none;
-padding-left: 0px;
-}
-
-/* 2nd paragraph - subheadings to be bold */
-#facts span {
-font-weight: bold;
-}
-
-/* 3rd paragraph */
-#summary {
-text-align: justify;
-padding-bottom: 10px;
-}
+/*# sourceMappingURL=styles.css.map */

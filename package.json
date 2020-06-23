@@ -1,0 +1,17 @@
+{
+  "name": "Animal-Trading-Card-master",
+  "version": "1.0.0",
+  "description": "[Link to Live Project](https://vasudevapitta.github.io/Animal-Trading-Card/) # Animal-Trading-Card Animal Trading Card - Google Nanodegree - Front End Web Developer Program",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --source-map true styles/styles.scss styles/styles.css",
+    "scss:watch": "npm run scss && node-sass styles/styles.scss -wo styles",
+    "server": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^7.0.32"
+  }
+}
